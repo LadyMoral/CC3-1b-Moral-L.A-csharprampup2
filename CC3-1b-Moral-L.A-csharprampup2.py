@@ -2,18 +2,18 @@ lbs = int(input("Enter weight in pounds: "))
 kg_conv = 0.45359237
 kg = lbs * kg_conv
 print("Weight in Kilograms: " + str(kg) + " kg.")
-print("======================================")
+print("------------------------------------------")
 
 mi = int(input("Enter distance in miles: "))
 km_conv = 1.60934
 km = mi * km_conv
 print("Distance in kilometers: " + str(km) + " km.")
-print("======================================")
+print("------------------------------------------")
 
 temp_far = input("Enter temperature in Fahrenheit: ")
 temp_cel = ((float(temp_far) - int(32)) / 1.8)
 print("Temperature in Celsius: " + str(temp_cel))
-print("=================================")
+print("------------------------------------------")
 
 age1 = int(input("Enter a number for student 1: "))
 age2 = int(input("Enter a number for student 2: "))
@@ -38,23 +38,26 @@ print("Student Age 8: " + str(age8))
 print("Student Age 9: " + str(age9))
 print("Student Age 10: " + str(age10))
 print("The average age of the 10 students is " + str(age_avg/10))
-print("=================================")
+print("")
 
-# Storytime muna:
-char1 = "Johnson"
-char2 = "Captain Jayden"
-char3 = "Doctor Rooney"
-char4 = "Jax"
-char5 = "Eruditio Inventors"
+char1 = "Lady"
+char2 = "Ananchelle"
+char3 = "Mila"
+char4 = "Mias"
+char5 = "Mel"
 
-print("A star quarterback named " + char1 + """, adored by millions, faced death after a horror crash. He was
-miraculously saved by """ + char3 + " and the " + char5 + ". " + char1 + """was reborn as a cyborg, able to transform 
-into a super-powered sports car. Grateful, """ + char1 + """pledged to protect Eruditio, alongside the valiant City 
-Guards led by""" + char2 + ". Now a brick wall on wheels, " + char1 + ", with his allies " + char3 + "," + char2 + """,
-and his mechanic, """ + char4 + """, became an unstoppable force, crushing any who threatened their beloved city. The 
-roar of his engine, a battle cry echoing through the streets, struck fear into the hearts of enemies, a testament to the
-city's unwavering defense.""")
-print("=================================")
+
+
+print("In the small town of Hadassa, there lived 5 fearless warriors:")
+print(f"{char1}, {char2}, {char3}, {char4}, and {char5} embarked on a quest to locate the Enchanted Crystal, "
+      "a gem capable of restoring harmony and peace to their world.")
+print("Along the way, they encountered talking mountains, fiery creatures, and deadly mirages.")
+print("As they neared the crystal, they discovered its power to heal, igniting a spark of hope within them.")
+print(f"At the journey's final step, just outside the Enchanted Crystal, there was an Ogre guarding the gem.")
+print("Despite the ogre being the most dangerous creature in their world, their teamwork prevailed, and they slayed it.")
+print(f"After obtaining the Enchanted Crystal, they returned home and resolved all the issues in their world.")
+print("Finally, they all lived happily with peace and harmony in their world.")
+
 
 number1 = int(input("Enter a number for experiment 1: "))
 if number1 <= 0:
@@ -64,7 +67,7 @@ else:
         for j in range(1, i + 1):
             print(j, end=" ")
         print()
-print("=================================")
+print("------------------------------------------")
 
 number2 = int(input("Enter a number for experiment 2: "))
 if number2 <= 0:
@@ -74,7 +77,7 @@ else:
     for i in range(1, number2 + 1):
         result += i
     print("The sum of numbers from 1 to " + str(number2) + " is " + str(result) + " .")
-print("=================================")
+print("------------------------------------------")
 
 number3 = int(input("Enter a number for experiment 3: "))
 if number3 <= 0:
@@ -82,4 +85,4 @@ if number3 <= 0:
 else:
     for i in range(number3, 0, -1):
         print(*range(1, i + 1))
-print("=================================")
+print("------------------------------------------")
